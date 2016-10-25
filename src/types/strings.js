@@ -45,3 +45,10 @@ console.log('moreStrict : ', moreStrict);
 var hitthis = 'funny    not funny';
 console.log('you are '+ hitthis.substring(-9, 9));// exclusion des 9 dernier char
 console.log('you are '+ hitthis.substr(-9, 9));// depart des 9 derniers char
+
+// Substring
+var all = '\t\nmy String   '.toLowerCase().trim();
+console.log(`<h1>all</h1> 
+multi 
+lines
+<p>: >>>${all.toUpperCase()}<<<</p>`);
