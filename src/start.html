@@ -3,8 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Starting JS</title>
+
+
 </head>
 <body>
-
+<h1> Hello JavaScript</h1>
+<p>
+    You are so nice !!
+</p>
 </body>
+<script type="text/javascript" src="http://underscorejs.org/underscore-min.js">
+</script>
+
+<script type="text/javascript">
+    var array = [2, 4, 6, 10, 11, 0, -3];
+    var group = _.groupBy(array, function (num) {
+        return num % 2
+    });
+
+    console.log(group);
+    console.log(_.max(array));
+
+</script>
+<script>
+
+var result =1;
+    function factoriel(x) {
+        for (var i = 1; i <= x; i++) {
+            result*=i;
+
+        }
+        return result;
+    }
+    console.log('with function :', factoriel(8));
+</script>
+
+
 </html>
