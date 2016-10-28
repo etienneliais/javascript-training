@@ -1,10 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    
+    <title>Displaying amazing work</title>
+
+    <style>
+        body {
+            background-color: azure;
+        }
+
+        section.search {
+            color: chocolate;
+            border: double;
+        }
+    </style>
+
 </head>
 <body>
-$END$
+<h1>Connected Users</h1>
+<section class="users">
+    <!--Display here using jQuery -->
+</section>
+
+
+<h1>
+    This is the main event of the EVENING
+</h1>
+
+
+<p>
+    Voici le resultat de la recherche : </br>
+</p>
+
+
+<form onsubmit="displaySearchValue(); return false">
+    <input type="search" class="search">
+    <button type="button">Search</button>
+
+</form>
+
+<section class="search">
+
+</section>
+
+
+<footer>
+    This is it !
+</footer>
+
 </body>
+<script src="jquery-3.1.1.js"></script>
+<script type="text/javascript" src="work.js"></script>
+<script type="text/javascript" src="jquery-events.js"></script>
+<script type="text/javascript" src="ajax.js"></script>
+
 </html>
